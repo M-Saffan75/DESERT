@@ -1,0 +1,206 @@
+* {
+    margin: 0px ;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body {
+    background: rgba(5, 5, 171, 0.796);
+}
+.container {
+  
+    margin: 0px auto;
+    margin-top: 8%;
+
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.img-card-1 {
+    flex-basis: 39%;
+    
+    margin: 5px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px black ;
+    
+}
+
+.img-card-2 {
+    flex-basis: 39%;
+    
+    margin: 5px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px black ;
+    
+}
+
+.img-card-3 {
+    flex-basis: 39%;
+    
+    margin:5% 5px 5px  5px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px black ;
+    
+    
+}
+
+.img-card-4 {
+    flex-basis: 39%;
+    
+    margin:5% 5px 5px  5px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px black ;
+    
+    
+}
+.inside {
+    width: 100%;
+}
+
+.the-image-1 {
+    background-image: url('https://images.unsplash.com/photo-1598198414976-ddb788ec80c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWFuJTIwYmxhY2slMjBhbmQlMjB3aGl0ZXxlbnwwfHwwfHw%3D&w=1000&q=80');
+    height: 120px;
+    width: 120px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+    border: 5px solid orange;
+    position: relative;
+    top: -60px;
+    left: -50px;
+}
+
+
+.the-image-2 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9LfpRmA8E5hTU8CSDAdhC1XnSmNoGdgT5yg&usqp=CAU');
+    height: 120px;
+    width: 120px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+    border: 5px solid orange;
+    position: relative;
+    top: -60px;
+    left: -50px;
+}
+
+
+.the-image-3 {
+    background-image: url('https://archziner.com/wp-content/uploads/2019/05/black-white-photo-hairstyles-for-men-black-curly-hair-short-bottom-beard-glasses.jpg');
+    height: 120px;
+    width: 120px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+    border: 5px solid orange;
+    position: relative;
+    top: -60px;
+    left: -50px;
+}
+
+
+.the-image-4 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ-zVCFGArp40DS9le67NEwJmbuJ4H5d6WXg&usqp=CAU');
+    height: 120px;
+    width: 120px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+    border: 5px solid orange;
+    position: relative;
+    top: -60px;
+    left: -50px;
+}
+.year {
+    padding:0px 70px 8px 70px;
+    margin-top: -40px;
+    color: rgba(0, 0, 0, 0.592);
+    font-weight: bold;
+
+}
+
+.head {
+    padding:0px 27px 10px 70px;
+    font-size:28px;
+    
+}
+
+.paragraph {    
+    padding:0px 10px 0px 70px;
+    color: rgba(8, 8, 8, 0.755);
+}
+
+.btn {
+    margin:30px 70px 50px 70px ;
+    width: 135px;
+    background:linear-gradient(#fbd72b,#f9484a);
+    color: #fff;
+    padding:13px 24px 13px 24px ;
+    text-align: center;
+    border-radius: 100px;
+}
+
+@media screen and (max-width:800px)
+{
+    .container
+    {
+        flex-direction: column;
+    }
+    .the-image-1, .the-image-2, .the-image-3, .the-image-4
+    {
+        display: inline-block;
+        text-align: center;
+        left: 0;
+        
+    }
+    .inside
+    {
+        text-align: center;
+    }
+
+    .img-card-1
+    {
+        margin:50px 10px 25% 10px;
+        
+    }
+
+    .img-card-2
+    {
+        margin:0px 10px 25% 10px;
+        
+    }
+
+    .img-card-3
+    {
+        margin:0px 10px 2% 10px;
+        
+    }
+    .img-card-4
+    {
+        margin:90px 10px 25px 10px;
+        
+    }
+    .year
+    {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .head 
+    {
+        font-size: 20px;
+    }
+
+    .paragraph
+    {
+        font-size: 14px;
+        padding-right: 20px;
+    }
+}
+
